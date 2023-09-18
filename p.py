@@ -1,5 +1,5 @@
 
-
+#instruction
 #create first project in py
 #helevator with secret flour 
 #with 1-9 flour are open for all people
@@ -45,17 +45,12 @@ elif usernumber == "8":
 elif usernumber == "9":
   print("Welcome on the 9 flour!")
 
+elif usernumber == "10":
+   userpassword = input("Please enter your code: ")
+    
+if userpassword == secretcode:
+    print("Welcome mr. John")
+
 else:
    print("Sorry, uncorrect!")
   
-
-
-if usernumber == "10":
-    userpassword = input("Please enter your code: ")
-    if userpassword == secretcode:
-        print("Welcome mr. John")
-    else:
-        print("Sorry, repeat do")
-
-else:
-    ("Sorry, uncorrect enter!")
