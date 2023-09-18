@@ -14,15 +14,22 @@ if 5 > 2:
 #if flour is open you need show it user and if close too
 
 #User write chooce number 
-usernumber = input("Write number your flour.")
+usernumber = input("Write number your flour: ")
 print("Your choice is: " + usernumber)
+
+#create secret code
+secretcode = 123546
 
 #if, elif for user flour
 if usernumber > 0 and usernumber < 9:
     print("Welcome!")
 
 elif usernumber == 10:
-    print("Please enter your code: ")
+    userpassword = input("Please enter your code: ")
+    if userpassword == secretcode:
+        print("Welcome mr. John")
+    else:
+        print("Sorry, repeat do")
 
 else:
     ("Sorry, uncorrect enter!")
