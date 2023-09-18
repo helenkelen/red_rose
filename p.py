@@ -8,3 +8,8 @@ if 5 > 2:
 
 #create first project in py
 #helevator with secret flour 
+#with 1-9 flour are open for all people
+#but 10 flour is close
+#you need input password
+#if flour is open you need show it user and if close too
+
