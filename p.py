@@ -16,16 +16,41 @@ usernumber = input()
 #create secret code
 secretcode = "123546"
 
-#flour numbers
-znumb = "0"
-nnumb = "9"
+
+#1 - 9 flour
+if usernumber == "1":
+  print("Welcome on the 1 flour!")
+
+elif usernumber == "2":
+  print("Welcome on the 2 flour!")
+
+elif usernumber == "3":
+  print("Welcome on the 3 flour!")
+  
+elif usernumber == "4":
+  print("Welcome on the 4 flour!")
+  
+elif usernumber == "5":
+  print("Welcome on the 5 flour!")
+  
+elif usernumber == "6":
+  print("Welcome on the 6 flour!")
+  
+elif usernumber == "7":
+  print("Welcome on the 7 flour!")
+  
+elif usernumber == "8":
+  print("Welcome on the 8 flour!")
+  
+elif usernumber == "9":
+  print("Welcome on the 9 flour!")
+
+else:
+   print("Sorry, uncorrect!")
+  
 
 
-#if, elif for user flour
-if usernumber == znumb or usernumber == nnumb: 
-  print("Welcome on 0 flour!")
-
-elif usernumber == 10:
+if usernumber == "10":
     userpassword = input("Please enter your code: ")
     if userpassword == secretcode:
         print("Welcome mr. John")
