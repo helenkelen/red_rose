@@ -21,8 +21,8 @@ print("Your choice is: " + usernumber)
 secretcode = 123546
 
 #flour numbers
-znumb = 0
-nnumb = 9
+znumb = zero
+nnumb = nine
 
 #if, elif for user flour
 if usernumber > znumb and usernumber < nnumb:
