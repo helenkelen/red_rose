@@ -20,8 +20,12 @@ print("Your choice is: " + usernumber)
 #create secret code
 secretcode = 123546
 
+#flour numbers
+znumb = 0
+nnumb = 9
+
 #if, elif for user flour
-if usernumber > 0 and usernumber < 9:
+if usernumber > znumb and usernumber < nnumb:
     print("Welcome!")
 
 elif usernumber == 10:
