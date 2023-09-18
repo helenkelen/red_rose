@@ -1,10 +1,4 @@
-#divid numbers
-num = 32 - 4
-print(num)
 
-#if method
-if 5 > 2:
-    print("Five if greater than two!")
 
 #create first project in py
 #helevator with secret flour 
@@ -14,19 +8,27 @@ if 5 > 2:
 #if flour is open you need show it user and if close too
 
 #User write chooce number 
-usernumber = input("Write number your flour: ")
-print("Your choice is: " + usernumber)
+print("Write number your flour:")
+
+usernumber = input()
+#print("Your choice is: " + usernumber)
+
+#if usernumber == "a":
+#    print("a")
+#else:
+#    print("Five equal two")
 
 #create secret code
-secretcode = 123546
+secretcode = "123546"
 
 #flour numbers
-znumb = zero
-nnumb = nine
+znumb = "0"
+nnumb = "9"
+
 
 #if, elif for user flour
-if usernumber > znumb and usernumber < nnumb:
-    print("Welcome!")
+if usernumber == znumb or usernumber == nnumb: 
+  print("Welcome on 0 flour!")
 
 elif usernumber == 10:
     userpassword = input("Please enter your code: ")
