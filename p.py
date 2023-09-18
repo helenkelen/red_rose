@@ -11,12 +11,7 @@
 print("Write number your flour:")
 
 usernumber = input()
-#print("Your choice is: " + usernumber)
 
-#if usernumber == "a":
-#    print("a")
-#else:
-#    print("Five equal two")
 
 #create secret code
 secretcode = "123546"
