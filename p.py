@@ -5,13 +5,19 @@ name, age, born date, salary, work
 """
 
 def name():
-    e1_n = "Derek Patison"
-    e2_n = "Mark Tolstoy"
-    e3_n = "Helen Kolrum"
-    e4_n = "Lucifer Morningstar"
+    
+    global e1_n
+    global e2_n
+    global e3_n
+    global e4_n
+
+    e1_n = "Derek Patison "
+    e2_n = "Mark Tolstoy "
+    e3_n = "Helen Kolrum "
+    e4_n = "Lucifer Morningstar "
 
     print("Name employees: ")
-    print("Hello " + e1_n)
+    print("Hello " +  e1_n)
     print("Hello " + e2_n)
     print("Hello " + e3_n)
     print("Hello " + e4_n)
@@ -24,10 +30,10 @@ def age():
     e4_a = "50"
 
     print("Age employees: ")
-    print("Derek Patison: " + e1_a)
-    print("Mark Tolstoy: " + e2_a)
-    print("Helen Kolrum: " + e3_a)
-    print("Lucifer Morningstar: " + e4_a)
+    print(e1_n + ": " +  e1_a)
+    print(e2_n + ": " + e2_a)
+    print(e3_n + ": " + e3_a)
+    print(e4_n + ": " + e4_a)
     print(" ")
 
 def born_date():
@@ -37,10 +43,10 @@ def born_date():
     bd_4 = "7/7/1997"
 
     print("Born date employees: ")
-    print("Derek Patison: " + bd_1)
-    print("Mark Tolstoy: " + bd_2)
-    print("Helen Kolrum: " + bd_3)
-    print("Lucifer Morningstar: " + bd_4)
+    print(e1_n + ": " + bd_1)
+    print(e2_n + ": " + bd_2)
+    print(e3_n + ": " + bd_3)
+    print(e4_n + ": " + bd_4)
     print(" ")
 
 def salary():
@@ -50,10 +56,10 @@ def salary():
     e4_s = "34567"
 
     print("Salary employees: ") 
-    print("Derek Patison: " + e1_s)
-    print("Mark Tolstoy: " + e2_s)
-    print("Helen Kolrum: " + e3_s)
-    print("Lucifer Morningstar: " + e4_s)
+    print(e1_n + ": " + e1_s)
+    print(e2_n + ": " + e2_s)
+    print(e3_n + ": " + e3_s)
+    print(e4_n + ": " + e4_s)
     print(" ")
 
 def work():
@@ -63,12 +69,12 @@ def work():
     e4_w = "Waiter"
     
     print("Work employees: ")
-    print("Derek Patison: " + e1_w)
-    print("Mark Tolstoy: " + e2_w)
-    print("Helen Kolrum: " + e3_w)
-    print("Lucifer Morningstar: " + e4_w)
+    print(e1_n + ": " + e1_w)
+    print(e2_n + ": " + e2_w)
+    print(e3_n + ": " + e3_w)
+    print(e4_n + ": " + e4_w)
     print(" ")
-    
+
 name()
 age()
 born_date()
